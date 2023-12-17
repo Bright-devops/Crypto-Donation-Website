@@ -1,0 +1,162 @@
+
+.trans {
+    padding-top: 50px;
+}
+.trans__text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.6616px;
+    line-height: 150%;
+    color: #ffffff;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+.trans__table {
+    background: linear-gradient(90deg, rgba(0, 102, 255, 0.05) 0%, rgba(71, 145, 255, 0.05) 100%);
+    border-radius: 17.5856px;
+}
+.trans__table-status-text {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.6616px;
+    line-height: 150%;
+    color: #215fff;
+}
+.trans__table-hash {
+    width: 78px;
+}
+.trans__table-block {
+    width: 38px;
+}
+.trans__table-from {
+    width: 58px;
+}
+.trans__table-empty {
+    width: 27px;
+}
+.trans__table-to {
+    width: 58px;
+}
+.trans__table-age {
+    width: 55px;
+}
+.trans__table-value {
+    width: 61px;
+}
+.trans__table-fee {
+    width: 54px;
+}
+.trans__table-status {
+    width: 66px;
+}
+.trans__table-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 36px;
+}
+.trans__table-head {
+    background: linear-gradient(0deg, #215fff, #215fff), linear-gradient(90deg, rgba(22, 19, 34, 0) 0%, #161322 50%, rgba(22, 19, 34, 0) 100%), #828aa5;
+    border-radius: 17.5856px;
+    padding: 15px 36px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+@media (max-width: 1150px) {
+    .trans__confirm {
+        width: inherit;
+    }
+    .trans__table-head {
+        padding: 9px 24px;
+    }
+    .trans__table-row {
+        padding: 9px 24px;
+    }
+    .trans__table-status-text {
+        font-size: 9px;
+    }
+    .trans__table-empty {
+        width: 15px;
+    }
+    .trans__text {
+        font-size: 9px;
+    }
+    .blocks__container {
+        display: flex;
+        flex-direction: column;
+    }
+    .blocks__block {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .faq__cont {
+        flex-direction: column;
+    }
+    .faq__block {
+        margin-top: 20px;
+        width: 100%;
+    }
+}
+@media (max-width: 1000px) {
+    .trans__confirm {
+        width: inherit;
+    }
+    .trans__table-status-text {
+        font-size: 9px;
+    }
+    .trans__table-hash {
+        width: 45px;
+    }
+    .trans__table-block {
+        width: 22px;
+    }
+    .trans__table-from {
+        width: 34px;
+    }
+    .trans__table-empty {
+        width: 15px;
+    }
+    .trans__table-to {
+        width: 35px;
+    }
+    .trans__table-age {
+        width: 32px;
+    }
+    .trans__table-value {
+        width: 35px;
+    }
+    .trans__table-fee {
+        width: 33px;
+    }
+    .trans__text {
+        font-size: 6px;
+    }
+    .trans__container {
+        padding: 0 !important;
+    }
+    .trans__table-status {
+        width: 28px;
+    }
+    .trans__table-row {
+        padding: 9px 9px;
+    }
+    .trans__table-head {
+        padding: 9px 9px;
+    }
+    .trans__title-cont {
+        padding: 0 20px;
+    }
+    .participate__block {
+        padding: 50px;
+        background: #111629;
+    }
+    .event__img {
+        display: none;
+    }
+    
+}
